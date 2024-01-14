@@ -1,6 +1,7 @@
 # Microserviço de pedidos e pagamentos com Spring Cloud
 
-<b> Este projeto foi criado com Spring e Spring Cloud </b>
+<b> Este projeto foi criado com Spring e Spring Cloud e se trata de um monorepo de dois microserviços: pedidos e pagamentos, bem como os
+recursos necessários para sua implementação e integração.</b>
 
 # Sobre o projeto
 Este projeto foi desenvolvido como parte do curso da Alura sobre implementação de microserviços com Spring Cloud, com o propósito de criar um sistema eficiente e escalável para gerenciar pedidos e pagamentos
