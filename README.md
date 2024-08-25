@@ -34,7 +34,7 @@ Eureka é utilizado para registrar e descobrir microserviços na arquitetura, fa
 
 # Organização dos projetos
 
-- server: Projeto com serviço de descoberta Eureka Server usando Spring Cloud Netflix.
+- server: projeto com serviço de descoberta Eureka Server usando Spring Cloud Netflix.
 - pagamentos: microserviço de pagamento.
 - pedidos: microserviço de pedidos.
 
