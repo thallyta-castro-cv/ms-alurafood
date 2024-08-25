@@ -4,8 +4,7 @@
 recursos necessários para sua implementação e integração.</b>
 
 # Sobre o projeto
-Este projeto foi desenvolvido como parte do curso da Alura sobre implementação de microserviços com Spring Cloud, com o propósito de criar um sistema eficiente e escalável para gerenciar pedidos e pagamentos
-em uma arquitetura de microserviços. O projeto utiliza tecnologias como Eureka, Gateway, OpenFeign e Load Balancer para oferecer uma solução completa.
+Este projeto foi desenvolvido como parte do curso da Alura sobre implementação de microserviços com Spring Cloud, com o propósito de criar um sistema eficiente e escalável para gerenciar pedidos e pagamentos em uma arquitetura de microserviços. O projeto utiliza tecnologias como Eureka, Gateway, OpenFeign e Load Balancer para oferecer uma solução completa.
 
 # Objetivo
 O objetivo principal deste microserviço é fornecer uma base sólida para consultas futuras e servir como referência para a 
@@ -16,7 +15,7 @@ implementação de funcionalidades e arquitetura de microserviços em projetos s
 ### Eureka:
 
 Função: Serviço de Registro e Descoberta.
-Eureka é utilizado para registrar e descobrir microserviços na arquitetura, facilitando a comunicação entre eles. Cada microserviço se registra no servidor Eureka, permitindo que outros serviços descubram e se comuniquem de maneira eficiente.
+Eureka é utilizado para registrar e descobrir microserviços na arquitetura, facilitando a comunicação entre eles. Cada microserviço se registra no servidor Eureka, permitindo que outros serviços descubram e se comuniquem de maneira eficiente. Usado no projeto server.
 
 ### Gateway:
 
@@ -33,6 +32,11 @@ Eureka é utilizado para registrar e descobrir microserviços na arquitetura, fa
 <b>Função:</b> Distribuição de Carga.
 - O Load Balancer distribui o tráfego entre várias instâncias dos microserviços, garantindo que a carga seja distribuída de maneira equitativa. Isso melhora a escalabilidade e a confiabilidade do sistema.
 
+# Organização dos projetos
+
+- server: Projeto com serviço de descoberta Eureka Server usando Spring Cloud Netflix.
+- pagamentos: microserviço de pagamento.
+- pedidos: microserviço de pedidos.
 
 # Autor
 <b>Thallyta Macedo Carvalho de Castro</b>
