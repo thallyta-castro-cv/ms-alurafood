@@ -15,12 +15,12 @@ implementação de funcionalidades e arquitetura de microserviços em projetos s
 ### Eureka:
 
 Função: Serviço de Registro e Descoberta.
-Eureka é utilizado para registrar e descobrir microserviços na arquitetura, facilitando a comunicação entre eles. Cada microserviço se registra no servidor Eureka, permitindo que outros serviços descubram e se comuniquem de maneira eficiente. Usado no projeto <b>server</b>.
+- Eureka é utilizado para registrar e descobrir microserviços na arquitetura, facilitando a comunicação entre eles. Cada microserviço se registra no servidor Eureka, permitindo que outros serviços descubram e se comuniquem de maneira eficiente. Implementado no projeto <b>server</b>.
 
 ### Gateway:
 
 <b>Função:</b> Roteamento e Agregação de Microserviços.
-- O Gateway atua como um ponto de entrada único para a arquitetura de microserviços. Ele roteia as requisições do cliente para os microserviços apropriados e pode realizar a agregação de dados provenientes de diferentes serviços.
+- O Gateway atua como um ponto de entrada único para a arquitetura de microserviços. Ele roteia as requisições do cliente para os microserviços apropriados e pode realizar a agregação de dados provenientes de diferentes serviços. Implementado no projeto <b>gateway</b>.
 
 ### OpenFeign:
 
@@ -34,9 +34,13 @@ Eureka é utilizado para registrar e descobrir microserviços na arquitetura, fa
 
 # Organização dos projetos
 
-- server: projeto com serviço de descoberta Eureka Server usando Spring Cloud Netflix.
-- pagamentos: microserviço de pagamento.
-- pedidos: microserviço de pedidos.
+| Projeto    | Descrição                                                                            |
+|------------|--------------------------------------------------------------------------------------|
+| pagamentos | Microserviço de pagamento.                                                          |
+| pedidos    | Microserviço de pedidos.                                                            |
+| server     | Projeto com serviço de descoberta Eureka Server usando Spring Cloud Netflix.         |
+| gateway    | Projeto com implementação de endereço que faz as requisições e delega para o microsserviço certo. |
+
 
 # Autor
 <b>Thallyta Macedo Carvalho de Castro</b>
