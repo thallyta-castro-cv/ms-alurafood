@@ -49,4 +49,4 @@ Linkedin: https://www.linkedin.com/in/thallyta-castro/
 
 Medium: https://medium.com/@thallyta-castro-cv
 
-email: contato@thallytacastro.com.br
+email: thallytacastro.dev@gmail.com
