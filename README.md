@@ -15,7 +15,7 @@ implementação de funcionalidades e arquitetura de microserviços em projetos s
 ### Eureka:
 
 Função: Serviço de Registro e Descoberta.
-Eureka é utilizado para registrar e descobrir microserviços na arquitetura, facilitando a comunicação entre eles. Cada microserviço se registra no servidor Eureka, permitindo que outros serviços descubram e se comuniquem de maneira eficiente. Usado no projeto server.
+Eureka é utilizado para registrar e descobrir microserviços na arquitetura, facilitando a comunicação entre eles. Cada microserviço se registra no servidor Eureka, permitindo que outros serviços descubram e se comuniquem de maneira eficiente. Usado no projeto <b>server</b>.
 
 ### Gateway:
 
