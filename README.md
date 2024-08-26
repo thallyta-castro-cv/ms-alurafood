@@ -27,7 +27,7 @@ implementação de funcionalidades e arquitetura de microserviços em projetos s
 | pagamentos | Microserviço de pagamento.                                                          |
 | pedidos    | Microserviço de pedidos.                                                            |
 | server     | Projeto com serviço de descoberta Eureka Server usando Spring Cloud Netflix.         |
-| gateway    | Projeto com implementação de endereço que faz as requisições e delega para o microsserviço certo. |
+| gateway    | Projeto com implementação de endereço que faz as requisições e delega para o microsserviço certo e faz o balanceamento de carga automaticamente em instâncias que são escaladas. |
 
 
 # Autor
