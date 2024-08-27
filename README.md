@@ -12,8 +12,6 @@ implementação de funcionalidades e arquitetura de microserviços em projetos s
 
 # Tecnologias Utilizadas
 
-# Tecnologias Utilizadas
-
 | Tecnologia     | Função                          | Descrição                                                                                                                                                                                                                              | Implementação     |
 |----------------|---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
 | Eureka         | Serviço de Registro e Descoberta | Eureka é utilizado para registrar e descobrir microserviços na arquitetura, facilitando a comunicação entre eles. Cada microserviço se registra no servidor Eureka, permitindo que outros serviços descubram e se comuniquem de maneira eficiente. | Projeto `server`  |
